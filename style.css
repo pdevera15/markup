@@ -1,0 +1,89 @@
+@font-face {
+	font-family: aileron-heavy;
+	src: url(font/Aileron-Heavy.otf);
+}
+@font-face {
+	font-family: aileron-bold;
+	src: url(font/Aileron-Bold.otf);
+}
+@font-face {
+	font-family: aileron-regular;
+	src: url(font/Aileron-Regular.otf);
+}
+
+a {
+	text-decoration: none;
+	color: #49dcf2;
+}
+
+body {
+	padding: 0px 100px 0px 100px;
+	background-color: #1f2335;
+	font-size: 24pt;
+	color: #fff;
+	font-family: aileron-regular;
+}
+h1 {
+	font-size: 52pt;
+	color: #fff;
+	font-weight: 400;
+	font-family: aileron-heavy;
+	text-align: center;
+}
+h2 {
+	font-size: 36pt;
+	color: #fff;
+}
+.hl {
+	color: #49dcf2;
+	font-family: aileron-heavy;
+}
+p {
+	text-indent: 50px;
+	text-align: justify;
+	margin: 0px;
+}
+.content {
+	line-height: 150%;
+}
+img.sm {
+	height: 40px;
+	width: 40px;
+	margin-bottom: 40px;
+}
+.social-media {
+	text-align: center;
+	word-spacing: 40px;
+}
+.social-media > img {
+
+}
+img.sm:hover {
+	transform: scale(1.5, 1.5);
+}
+.footer {
+	text-align: right;
+	margin: 40px;
+	font-size: 20pt;
+}
+.project-title {
+	font-size: 20pt;
+	text-indent: 0px;
+}
+sub {
+	font-size: 9pt;
+	text-indent: 50px;
+	letter-spacing: 1px;
+}
+.project {
+	line-height: 20px;
+}
+.hash {
+	background-color: gray;
+	color: white;
+	border-radius: 3px;
+	font-size: 8px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 2px 5px 2px 5px; 
+}
